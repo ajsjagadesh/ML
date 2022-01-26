@@ -4,7 +4,8 @@ from sklearn.linear_model import LogisticRegression
 #from sklearn.naive_bayes import GaussianNB
 from sklearn.model_selection import train_test_split
 
-df = pd.read_csv('emails.csv')   # Loading CSV file
+df = pd.read_csv('emails.csv')   # Loading CSV file  You can Download this email csv file from  the link 
+                                 #(https://www.kaggle.com/balaka18/email-spam-classification-dataset-csv)
 df = df.fillna(method ='pad')  
 
 print(df.info())
